@@ -1,10 +1,6 @@
 // Initialize Firebase
-var config = {
-	apiKey: "AIzaSyCv4gvp-ZmOaDoLjLw_W0zSmD_3Ce476s8",
-	authDomain: "ppprog2.firebaseapp.com",
-	databaseURL: "https://ppprog2.firebaseio.com",
-	storageBucket: "ppprog2.appspot.com"
-};
+var config = config.gitignore;
+
 firebase.initializeApp(config);
 // 1. Link to Firebase
 var trainData = firebase.database();
